@@ -44,5 +44,10 @@
   },
   "resolutions": {
     "angular": "1.6.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "postinstall": "bower install && grunt build"
   }
 }
