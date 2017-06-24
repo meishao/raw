@@ -4,12 +4,7 @@
   "dependencies": {
     "bower": "~1.4.1"
   },
-  "engine": {
-    "node": "0.12.x",
-    "npm": "2.11.x"
-  },
   "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install",
-    "start": "http-server -o"
+    "postinstall": "./node_modules/bower/bin/bower install"
   }
 }
