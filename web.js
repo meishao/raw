@@ -2,9 +2,7 @@ var express = require("express");
 
 var app = express();
 
-app.configure(function() {
-  app.use(express.static(__dirname + '/'));
-});
+app.use(express.static(__dirname + '/'));
 
 var port = process.env.PORT || 3000;
 console.log('Port ' + port);
